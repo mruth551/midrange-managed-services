@@ -164,22 +164,25 @@ footer {
     </div>
 </section>
 
-<section id="contact">
-    <h2>Contact Us</h2>
-    <div class="container">
-        <p>Request information or schedule your free consultation.</p>
-    </div>
+<section id="contact" class="section">
+    <h3>Contact Us</h3>
 
-    <form action="https://formsubmit.co/mruth551@gmail.com" method="POST">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <textarea name="message" rows="5" placeholder="How can we help?" required></textarea>
+    <!-- IMPORTANT: Replace with your real email -->
+    <form action="https://formsubmit.co/mruth551@gmail.com" method="POST" class="contact-form">
 
-        <input type="hidden" name="_subject" value="New Website Inquiry - Midrange Managed Services">
+        <input type="text" name="Name" placeholder="Name" required>
+        <input type="text" name="Company" placeholder="Company">
+        <input type="email" name="Email" placeholder="Email" required>
+        <input type="text" name="Phone" placeholder="Phone">
+        <textarea name="Message" rows="4" placeholder="Tell us about your IBM i environment"></textarea>
+
+        <!-- FormSubmit Settings -->
+        <input type="hidden" name="_subject" value="New Midrange Managed Services Inquiry">
         <input type="hidden" name="_captcha" value="false">
 
-        <button type="submit">Send Message</button>
+        <button class="button" type="submit">Submit</button>
     </form>
+
 </section>
 
 <footer>
@@ -188,6 +191,7 @@ footer {
 
 </body>
 </html>
+
 
 
 
