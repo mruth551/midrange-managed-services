@@ -6,41 +6,42 @@
 <title>Midrange Managed Services</title>
 
 <style>
+/* Background with Data Center Image + Overlay */
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+    background:
+        linear-gradient(rgba(11,61,110,0.80), rgba(11,61,110,0.80)),
+        url('datacenter.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     color: #333;
 }
 
 /* Header */
 header {
-    background-color: #ffffff;
-    padding: 20px 40px;
-    border-bottom: 1px solid #e5e5e5;
-}
-
-.logo-area {
+    background-color: rgba(255,255,255,0.95);
+    padding: 20px;
     text-align: center;
+    border-bottom: 1px solid #ddd;
 }
 
 .logo-area img {
-    max-width: 750px;
+    max-width: 700px;
     width: 100%;
     height: auto;
 }
 
 .tagline {
-    text-align: center;
     font-size: 22px;
-    font-weight: 600;
+    font-weight: bold;
     color: #0B3D6E;
     margin-top: 10px;
 }
 
 /* Navigation */
 nav {
-    text-align: center;
     margin-top: 20px;
 }
 
@@ -56,11 +57,13 @@ nav a:hover {
     color: #0073e6;
 }
 
-/* Sections */
+/* Content Sections */
 section {
+    background-color: rgba(255,255,255,0.97);
+    margin: 40px auto;
     padding: 60px 20px;
-    background-color: #ffffff;
-    margin-bottom: 20px;
+    max-width: 1000px;
+    border-radius: 8px;
 }
 
 section h2 {
@@ -70,8 +73,6 @@ section h2 {
 }
 
 .container {
-    max-width: 900px;
-    margin: auto;
     text-align: center;
     font-size: 18px;
     line-height: 1.6;
@@ -88,8 +89,8 @@ input, textarea {
     width: 100%;
     padding: 12px;
     margin-bottom: 15px;
-    border: 1px solid #ccc;
     border-radius: 4px;
+    border: 1px solid #ccc;
     font-size: 16px;
 }
 
@@ -109,10 +110,10 @@ button:hover {
 
 /* Footer */
 footer {
+    background-color: rgba(0,0,0,0.85);
+    color: white;
     text-align: center;
     padding: 20px;
-    background-color: #0B3D6E;
-    color: white;
 }
 </style>
 </head>
@@ -139,27 +140,27 @@ footer {
 <section id="services">
     <h2>Managed Services</h2>
     <div class="container">
-        <p>24/7 IBM i system monitoring and support</p>
-        <p>Performance tuning and capacity planning</p>
+        <p>24/7 IBM i monitoring and administration</p>
+        <p>Performance tuning and system optimization</p>
         <p>Security hardening and compliance reviews</p>
-        <p>Backup, recovery, and HA/DR planning</p>
-        <p>System upgrades and patch management</p>
+        <p>Backup, recovery, and disaster planning</p>
+        <p>OS upgrades and patch management</p>
     </div>
 </section>
 
 <section id="health">
     <h2>Free IBM i Health Check</h2>
     <div class="container">
-        <p>Get a free review of your system performance, security, and configuration.</p>
-        <p>Identify risks, optimization opportunities, and cost savings.</p>
+        <p>We analyze your system performance, security, and configuration.</p>
+        <p>Identify risks, improvement opportunities, and cost savings.</p>
     </div>
 </section>
 
 <section id="about">
     <h2>About Midrange Managed Services</h2>
     <div class="container">
-        <p>Midrange Managed Services provides expert IBM i administration and managed support for organizations that depend on reliable, secure midrange systems.</p>
-        <p>Our proactive approach ensures your environment stays secure, optimized, and available.</p>
+        <p>Midrange Managed Services provides expert IBM i system management for organizations that rely on stable, secure, and high-performing midrange environments.</p>
+        <p>Our proactive approach ensures maximum uptime, security, and operational efficiency.</p>
     </div>
 </section>
 
@@ -169,13 +170,11 @@ footer {
         <p>Request information or schedule your free consultation.</p>
     </div>
 
-    <!-- Contact Form -->
-    <form action="https://formsubmit.co/mruth551@gmail.com.com" method="POST">
+    <form action="https://formsubmit.co/YOUR_EMAIL_HERE" method="POST">
         <input type="text" name="name" placeholder="Your Name" required>
         <input type="email" name="email" placeholder="Your Email" required>
         <textarea name="message" rows="5" placeholder="How can we help?" required></textarea>
 
-        <!-- FormSubmit Settings -->
         <input type="hidden" name="_subject" value="New Website Inquiry - Midrange Managed Services">
         <input type="hidden" name="_captcha" value="false">
 
@@ -189,6 +188,7 @@ footer {
 
 </body>
 </html>
+
 
 
 
