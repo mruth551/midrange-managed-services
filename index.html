@@ -6,54 +6,48 @@
 <title>Midrange Managed Services</title>
 
 <style>
-/* Full-page Data Center Background */
 body {
-    margin: 0;
     font-family: Arial, sans-serif;
-    background:
-        linear-gradient(rgba(11,61,110,0.80), rgba(11,61,110,0.80)),
-        url('datacenter.png');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    margin: 0;
+    background-color: #f7f7f7;
+    color: #333;
 }
 
 /* Header */
 header {
-    background-color: rgba(255,255,255,0.95);
-    padding: 30px 20px;
+    background-color: #ffffff;
+    padding: 20px 40px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.logo-area {
     text-align: center;
-    border-bottom: 1px solid #ddd;
 }
 
-/* New Logo Styling */
-.logo-container {
-    margin-bottom: 10px;
-}
-
-.logo-container img {
-    max-width: 800px;   /* Large logo with prominent shield */
+.logo-area img {
+    max-width: 750px;
     width: 100%;
     height: auto;
 }
 
-/* Tagline */
 .tagline {
-    font-size: 24px;
-    font-weight: bold;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
     color: #0B3D6E;
     margin-top: 10px;
 }
 
 /* Navigation */
 nav {
-    margin-top: 25px;
+    text-align: center;
+    margin-top: 20px;
 }
 
 nav a {
     text-decoration: none;
     color: #0B3D6E;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
     margin: 0 20px;
 }
@@ -64,24 +58,23 @@ nav a:hover {
 
 /* Sections */
 section {
-    background-color: rgba(255,255,255,0.97);
-    margin: 40px auto;
     padding: 60px 20px;
-    max-width: 1000px;
-    border-radius: 8px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
 }
 
 section h2 {
     text-align: center;
     color: #0B3D6E;
-    font-size: 34px;
+    font-size: 32px;
 }
 
 .container {
+    max-width: 900px;
+    margin: auto;
     text-align: center;
     font-size: 18px;
     line-height: 1.6;
-    color: #333;
 }
 
 /* Contact Form */
@@ -95,8 +88,8 @@ input, textarea {
     width: 100%;
     padding: 12px;
     margin-bottom: 15px;
-    border-radius: 4px;
     border: 1px solid #ccc;
+    border-radius: 4px;
     font-size: 16px;
 }
 
@@ -116,10 +109,10 @@ button:hover {
 
 /* Footer */
 footer {
-    background-color: rgba(0,0,0,0.85);
-    color: white;
     text-align: center;
     padding: 20px;
+    background-color: #0B3D6E;
+    color: white;
 }
 </style>
 </head>
@@ -127,8 +120,8 @@ footer {
 <body>
 
 <header>
-    <div class="logo-container">
-        <img src="logo-new.png" alt="Midrange Managed Services Logo">
+    <div class="logo-area">
+        <img src="logo.png" alt="Midrange Managed Services Logo">
     </div>
 
     <div class="tagline">
@@ -146,18 +139,18 @@ footer {
 <section id="services">
     <h2>Managed Services</h2>
     <div class="container">
-        <p>24/7 IBM i monitoring and administration</p>
+        <p>24/7 IBM i system monitoring and support</p>
         <p>Performance tuning and capacity planning</p>
         <p>Security hardening and compliance reviews</p>
-        <p>Backup, recovery, and disaster planning</p>
-        <p>OS upgrades and PTF management</p>
+        <p>Backup, recovery, and HA/DR planning</p>
+        <p>System upgrades and patch management</p>
     </div>
 </section>
 
 <section id="health">
     <h2>Free IBM i Health Check</h2>
     <div class="container">
-        <p>We evaluate system performance, security posture, and configuration health.</p>
+        <p>Get a free review of your system performance, security, and configuration.</p>
         <p>Identify risks, optimization opportunities, and cost savings.</p>
     </div>
 </section>
@@ -165,8 +158,8 @@ footer {
 <section id="about">
     <h2>About Midrange Managed Services</h2>
     <div class="container">
-        <p>Midrange Managed Services delivers expert administration and proactive support for organizations that depend on reliable IBM i environments.</p>
-        <p>Our mission is to keep your systems secure, optimized, and always available.</p>
+        <p>Midrange Managed Services provides expert IBM i administration and managed support for organizations that depend on reliable, secure midrange systems.</p>
+        <p>Our proactive approach ensures your environment stays secure, optimized, and available.</p>
     </div>
 </section>
 
@@ -176,11 +169,13 @@ footer {
         <p>Request information or schedule your free consultation.</p>
     </div>
 
+    <!-- Contact Form -->
     <form action="https://formsubmit.co/mruth551@gmail.com" method="POST">
         <input type="text" name="name" placeholder="Your Name" required>
         <input type="email" name="email" placeholder="Your Email" required>
         <textarea name="message" rows="5" placeholder="How can we help?" required></textarea>
 
+        <!-- FormSubmit Settings -->
         <input type="hidden" name="_subject" value="New Website Inquiry - Midrange Managed Services">
         <input type="hidden" name="_captcha" value="false">
 
@@ -194,6 +189,7 @@ footer {
 
 </body>
 </html>
+
 
 
 
