@@ -164,24 +164,25 @@ footer {
     </div>
 </section>
 
-<section id="contact" class="section">
-    <h3>Contact Us</h3>
+    <section id="contact">
+<h2>Contact Us</h2>
 
-    <!-- IMPORTANT: Replace with your real email -->
-        <form action="https://mruth551.github.io/midrange-managed-services/" method="POST">
-        <input type="text" name="Name" placeholder="Name" required>
-        <input type="text" name="Company" placeholder="Company">
-        <input type="email" name="Email" placeholder="Email" required>
-        <input type="text" name="Phone" placeholder="Phone">
-        <textarea name="Message" rows="4" placeholder="Tell us about your IBM i environment"></textarea>
+<p>Need IBM i support, consulting, or managed services? Send us a message and we'll respond quickly.</p>
+<label for="name">Name</label><br>
+<input type="text" id="name" name="name" required><br><br>
 
-        <!-- FormSubmit Settings -->
-        <input type="hidden" name="_subject" value="New Midrange Managed Services Inquiry">
-        <input type="hidden" name="_captcha" value="false">
+<label for="email">Email</label><br>
+<input type="email" id="email" name="email" required><br><br>
 
-        <button class="button" type="submit">Submit</button>
-            <input type="hidden" name="_next" value="https://mruth551.github.io/midrange-managed-services/">
-    </form>
+<label for="company">Company</label><br>
+<input type="text" id="company" name="company"><br><br>
+
+<label for="message">Message</label><br>
+<textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+<button type="submit">Send Message</button>
+
+</form>
 
 </section>
 
@@ -189,8 +190,37 @@ footer {
     © 2026 Midrange Managed Services | IBM i Managed Services
 </footer>
 
+    <!DOCTYPE html>
+<html>
+<head>
+<title>Thank You</title>
+<style>
+body{
+font-family: Arial;
+text-align:center;
+padding:80px;
+background:#0b1f33;
+color:white;
+}
+a{
+color:#4da3ff;
+font-weight:bold;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Thank You</h1>
+
+<p>Your message has been sent successfully.</p>
+
+<p>A Midrange Managed Services specialist will contact you shortly.</p>
+
+<p><a href="https://midrangemanagedservices.com">Return to Website</a></p>
 </body>
 </html>
+
 
 
 
