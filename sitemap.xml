@@ -6,5 +6,9 @@
 <loc>https://midrangemanagedservices.com/</loc>
 <priority>1.0</priority>
 </url>
+  
+  <url>
+<loc>https://midrangemanagedservices.com/about.html</loc>
+</url>
 
 </urlset>
